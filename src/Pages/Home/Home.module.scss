@@ -1,0 +1,34 @@
+* {
+    padding: 0;
+    box-sizing: border-box;
+    margin: o;
+}
+
+ .pro {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ }
+ .containerFour {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    text-align: center;
+ }
+ .containerFour h1 {
+    font-family: "Mukto" sans-serif;
+    font-size:32px ;
+    font-weight: 500;
+    font-style: normal;
+    color: rgb(37,38,42);
+    border-top: 2px solid #7971EA;
+    
+ }
+ .productsBox {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+ }

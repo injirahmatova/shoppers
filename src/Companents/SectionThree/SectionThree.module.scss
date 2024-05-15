@@ -1,0 +1,52 @@
+.sectionThree {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 600px;
+  background-color:#F8F9FA ;
+  .containerThree {
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+
+    .cardsThree {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      width: 100%;
+      text-align: center;
+
+      .cardThree {
+        width: 30%;
+        background-color: white;
+        .photoThree {
+          width: 80%;
+          img{
+            width: 100%;
+          }
+        }
+
+        h3 {
+        font-family: "Mukta", -apple-system, BlinkMacSystemFont, "Segoe UI",
+          Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji",
+          "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+        font-size: 24px;
+        color: rgb(58, 46, 224);
+        font-weight: 500;
+      
+        span {
+          color: rgb(68, 68, 68);
+          font-family: "Josefin Sans", sans-serif;
+          font-size: 18px;
+        }
+      }
+      }
+
+      
+    }
+  }
+}
